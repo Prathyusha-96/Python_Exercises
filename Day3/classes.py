@@ -56,3 +56,11 @@ e1 = Employee('Charli', 'Chaplin', 25)
 e1.my_self()
 print(issubclass( Employee,Person))
 print(isinstance(e1, Employee))
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+emp = Employee('Suhan', 50000)
+print(emp.salary)
