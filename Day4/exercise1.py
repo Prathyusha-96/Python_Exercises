@@ -72,3 +72,31 @@ for i in my_list:
 for i in range(0, 10):
     if i%2==0:
         print('even no is:', i)
+
+n = 10
+i = 1
+while i < n:
+    if n%2 == 0:
+        print(n,'is even')
+    else:
+        print(n,'is odd')
+    i+=1
+
+x = lambda a: a+10
+print(x(5))
+
+def my_func(n):
+    return lambda a: a*n
+x = my_func(3)
+print(x(10))
+
+num = 11
+if num > 1:
+    for i in range(2, num):
+        if num%i == 0:
+            print(num, 'is not a primenumber')
+            break
+    else:
+        print('prime number')
+else:
+    print('not a prime number')
