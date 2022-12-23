@@ -100,3 +100,10 @@ if num > 1:
         print('prime number')
 else:
     print('not a prime number')
+
+def vowelorconsonant(x):
+    if (x == 'a' or x == 'e' or  x == 'i' or x == 'o' or x == 'u'):
+        print('vowel')
+    else:
+        print('consonant')
+vowelorconsonant('c')
